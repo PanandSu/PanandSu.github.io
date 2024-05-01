@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username: huxpro
-zhihu_username: people/12-50-87-90
+zhihu_username: 12-50-87-90
 github_username: PanandSu
 twitter_username: JinhaoPan24250
 
