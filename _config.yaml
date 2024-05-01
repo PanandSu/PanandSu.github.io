@@ -93,5 +93,5 @@ friends:
   ]
 
 include:
-    - "P:\Projects\WebStorm\panandsu\_includes\intro-header.html"
-    - _includes/intro-header.html
+    - "P:/Projects\\WebStorm\\panandsu\\_includes\\intro-header.html"
+    - _includes\\intro-header.html
