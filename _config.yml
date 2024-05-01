@@ -27,12 +27,12 @@ permalink: pretty
 paginate: 10
 exclude:
   [
-    "less",
-    "node_modules",
-    "Gruntfile.js",
-    "package.json",
-    "README.md",
-    "README.zh.md",
+      "less",
+      "node_modules",
+      "Gruntfile.js",
+      "package.json",
+      "README.md",
+      "README.zh.md",
   ]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -42,7 +42,7 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: [ jekyll-paginate ]
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -50,13 +50,13 @@ plugins: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+    input: GFM # use Github Flavored Markdown !important
+    syntax_highlighter_opts:
+        span:
+            line_numbers: false
+        block:
+            line_numbers: true
+            start_line: 1
 
 # Disqus settings
 disqus_username: hux
@@ -91,12 +91,12 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+      { title: "乱序（Midare）", href: "https://mida.re/" },
+      { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
+      { title: "Kun Qian", href: "https://kunq.me" },
+      { title: "Sherry Woo", href: "https://sherrywoo.me/" },
+      { title: "SmdCn", href: "https://blog.smdcn.net" },
+      { title: "JiyinYiyong", href: "https://tiye.me/" },
+      { title: "DHong Say", href: "https://dhong.co" },
+      { title: "尹峰以为", href: "https://ingf.github.io/" },
   ]
