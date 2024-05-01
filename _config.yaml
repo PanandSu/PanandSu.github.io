@@ -14,9 +14,9 @@ future: true
 # SNS settings
 RSS: false
 weibo_username: huxpro
-zhihu_username: https://www.zhihu.com/people/12-50-87-90
-github_username: https://github.com/PanandSu
-twitter_username: https://twitter.com/JinhaoPan24250
+zhihu_username: people/12-50-87-90
+github_username: PanandSu
+twitter_username: JinhaoPan24250
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
