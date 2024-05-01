@@ -1,11 +1,11 @@
 # Site settings
 title: Pan Jinhao
-SEOTitle: 潘金豪的博客 | Hux Blog
+SEOTitle: 潘金豪的博客 | PanJinhao Blog
 header-img: img/home-bg.jpg
 email: panjinhao0320@gmail.com
 description: "这里是 @PanJinhao 的个人博客，与你一起发现更大的世界"
 keyword: " 个人网站, Web, JavaScript, React, 前端"
-url: "https://panandsu.github.io" # your host, for absolute URL
+url: "https://pansu.site" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -73,7 +73,7 @@ ga_domain: pansu.site
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "呵呵,王者无畏!!"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/PanandSu.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -91,3 +91,7 @@ friends:
   [
       { title: "乱序（Midare）", href: "https://mida.re/" },
   ]
+
+include:
+    - "P:\Projects\WebStorm\panandsu\_includes\intro-header.html"
+    - _includes/intro-header.html
