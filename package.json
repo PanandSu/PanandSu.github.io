@@ -10,7 +10,7 @@
     },
     "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
     "devDependencies": {
-        "grunt": ">=1.3.0",
+        "grunt": "1.5.3",
         "grunt-banner": "~0.2.3",
         "grunt-contrib-less": "^2.0.0",
         "grunt-contrib-uglify": "^4.0.1",
@@ -21,5 +21,8 @@
         "dev": "grunt watch & npm run start",
         "boil": "git push boilerplate boilerplate:master",
         "push": "git push origin master --tag"
+    },
+    "dependencies": {
+        "liquid": "^5.1.1"
     }
 }
