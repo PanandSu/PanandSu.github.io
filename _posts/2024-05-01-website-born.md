@@ -1,12 +1,10 @@
 ---
 layout:     post
 title:      "网站诞生"
+author:       "PanJinhao"
 subtitle:   "Hello World, Hello Blog"
-date:       2024-05-01 23:30:00
-author:     "PanJinhao"
-header-img: "img/post-bg-2015.jpg"
 tags:
-    - 杂记
+    - Git
 ---
 
 
