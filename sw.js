@@ -14,7 +14,7 @@ const CACHE_NAMESPACE = 'main-'
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
     "./",
-    "./offline.liquid",
+    "./offline.html",
     "./js/jquery.min.js",
     "./js/bootstrap.min.js",
     "./js/hux-blog.min.js",
@@ -199,7 +199,7 @@ self.addEventListener('fetch', event => {
         event.respondWith(
                 Promise.race([fetched.catch(_ => cached), cached])
                         .then(resp => resp || fetched)
-                        .catch(_ => caches.match('offline.liquid'))
+                        .catch(_ => caches.match('offline.html'))
         );
 
         // Update the cache with the version we fetched (only for ok status)
