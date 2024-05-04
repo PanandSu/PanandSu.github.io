@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
 <!-- Post Header -->
@@ -53,15 +51,15 @@ layout: default
 
                 {% if site.disqus_username %}
                     <!-- disqus 评论框 start -->
-                    <div class="comment">
-                        <div id="disqus_thread" class="disqus-thread"></div>
-                    </div>
+                    {% comment %}<div class="comment">{% endcomment %}
+                    {% comment %}<div id="disqus_thread" class="disqus-thread"></div>{% endcomment %}
+                    {% comment %}</div>{% endcomment %}
                     <!-- disqus 评论框 end -->
                 {% endif %}
 
                 {% if site.netease_comment %}
                     <!-- 网易云跟帖 评论框 start -->
-                    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+                    {% comment %}<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>{% endcomment %}
                     <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
             </div>
