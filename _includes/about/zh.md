@@ -6,13 +6,10 @@
 
 欢迎联系我:
 
-- [Github](https://github.com/huxpro)
-- [知乎](https://www.zhihu.com/people/huxpro/pins/posts)
-- [推特](https://twitter.com/Huxpro/)
-
-- [微博](https://weibo.com/huxpro)
-- [B站](https://space.bilibili.com/43271611)
-- [Instagram](https://www.instagram.com/huxpro/)
+- [Github](https://github.com/PanandSu)
+- [知乎](https://www.zhihu.com/people/12-50-87-90)
+- [推特](https://twitter.com/JinhaoPan24250)
+- [B站](https://space.bilibili.com/3493116371798466?spm_id_from=333.1007.0.0)
 
 爱好:
 

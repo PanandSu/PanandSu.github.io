@@ -32,7 +32,7 @@ exclude:
       "README.md",
       "README.zh.md",
   ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.liquid`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
 
@@ -93,5 +93,7 @@ friends:
   ]
 
 include:
-    - "P:/Projects\\WebStorm\\panandsu\\_includes\\intro-header.html"
-    - _includes\\intro-header.html
+    - "P:/Projects\\WebStorm\\panandsu\\_includes\\intro-header.liquid"
+    - _includes\\intro-header.liquid
+
+gems: [ jekyll-paginate ]
